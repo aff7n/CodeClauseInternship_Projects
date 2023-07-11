@@ -1,0 +1,52 @@
+$black: #000;
+$black_2: #303030;
+$white: #fff;
+$orange: #ff9933;
+$font-family_1: "Noto sans", sans-serif;
+$font-family_2: "Raleway", sans-serif;
+$background-grey: #eeeeee;
+
+.nav-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-brand {
+  display: flex;
+  flex-direction: column;
+}
+.navbar-name {
+  color: $black;
+  text-shadow: none;
+  font-family: $font-family_1;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin: 0;
+  text-decoration: none;
+}
+.navbar-dsgn {
+  letter-spacing: 5.7px;
+  font-size: 12px;
+  font-family: $font-family_2;
+  text-transform: uppercase;
+  text-align: center;
+}
+.nav-link {
+  color: $black;
+  text-shadow: none;
+  font-family: $font-family_1;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+#navbar1 {
+  display: flex;
+  justify-content: flex-end;
+}
+.nav-item {
+  padding: 5px 10px;
+}
+.logo {
+  width: 50px;
+  margin-right: 20px;
+}
