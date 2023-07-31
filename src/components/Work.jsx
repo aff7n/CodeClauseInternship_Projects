@@ -14,8 +14,7 @@ const Work = (props) => {
           class="option active"
           style={{
             zoom: "100%",
-            background:
-              "center left url(https://lh3.googleusercontent.com/pw/AIL4fc_r9ZUEDACg3CFDqoK02Tc9UWZB6ndpNOvKJiGPwTXWcupdDYeV5-gttHlw5bpafCFBC-a04LRCd90KoxE-OUW_mRVKKQd1apoPXNXRxdYs1qIgvdg6DI6v0Aa1TJyqlLUdbBpfm_O5MQ0SkFYkJFUkAjKpUt6-KWabEmZz9dWLmHVhTE0JmxnsOVHb0CrfSEwFsWbWLKyCwq2LO52tXJOi7Ok1fwRPcvert90LAODO0MGsKdS_VY-trBCXB9oFJbjqU1ztNuxwws0HngfYhYXgy_tyZ-8u-WGiXzf8__6txeujSkN8hKS4Wi-DiAiwYmlToski_6hSPV5oshstUm4bfIjeFwraVdNWN9s_UWDvu83WORQKO7qGe4Xmc9g7tRZbQCMZpOFT9vgKO9Yl9Su2VY_M17kAa8jvHArWvunJ2e_BYCS-5lLUNqDwBoxMi-ry34jNsxvrXnitZuHXwrBw3CAJRCN7fyST-Byjn14UqnuwB7UQa8CqaYZK_bOntqrHesNAFVqzcVbOl-THXEZ7veh4goCo5WcjLzD8M_QhXij44DK8AUXemiJb1_FdFFYi1s-eWgLNEg6g2zZAKokvrShL8gVfbwRHkzItZP8h-yamd1Q2R8yhHykMRtveWRJI63SF5YmUXPcCAaFDmfkHjrrM3odhqhqD-Z6nHhymTesijNq3gSHXSQSPd0NCd3ehVpZZsMFSYzqNxbM_bJ92gyPR6fmM3kWkpkV_iJ0stlenhkUOOiBy6J2M3KTmkp_AhOhsRTY_dZQdP4JE2UsFuVUrADRK9gxZWMblCo9xdVcgSSASRln4_2upYQVviimJsRhAJqdr7w5NOcvcdPODuvkdyVBPgERkFh8nKfgCMgeUQQ4brmCNl-Z6akIsmZk90M2k5GWkp-JPyHbT2Tf7LStqrmimUW_55fXZvP4671pYYxiWbGxuhvoAKwuZzRfw-mWgR4W_Ab4koxWvrtdtN9-wGohZGIngqQUyFbbppLP53T9VDWXirmNCZMcshw=w652-h635-s-no?authuser=0)",
+            background: "center left url(../img/alldrycleaners.jpg)",
           }}
         >
           <div class="shadow"></div>
