@@ -1,6 +1,22 @@
 $optionDefaultColours: #ed5565, #fc6e51, #ffce54, #2ecc71, #5d9cec, #ac92ec;
 $orange: #ffb731;
 
+.w-button {
+  padding: 14px 34px;
+  font-family: $font-family_2;
+  letter-spacing: 1px;
+  margin: 20px;
+  font-size: 15px;
+  border-radius: 30px;
+  text-align: center;
+  color: $black;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-block;
+}
+
 .carasoul {
   width: 100%;
   height: 85vh;
@@ -62,7 +78,7 @@ $orange: #ffb731;
       margin: 0px;
       //   border: 3.5px solid $orange;
       border-radius: 40px;
-      background-size: cover 100%;
+      background-size: cover;
       .shadow {
         box-shadow: inset 0 -120px 120px -120px black,
           inset 0 -120px 120px -100px black;

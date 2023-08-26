@@ -6,7 +6,7 @@ const Nav = (props) => {
       <div class="container">
         <div className="nav-cont">
           <img
-            src={require("./rayyan.jpg")}
+            src={require("../img/rayyan.jpg")}
             class="logo rounded-circle shadow-4-strong"
             alt="rayyan"
           />

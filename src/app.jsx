@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Nav from "./components/Nav";
-import Landing from "./components/Landing";
-import Work from "./components/Work";
+import Landing from "./pages/Landing";
+import Sample from "./pages/Sample";
 import JsonData from "./data/data.json";
 
 const App = () => {
@@ -14,7 +14,7 @@ const App = () => {
     <div>
       <Nav />
       <Landing data={landingPageData.Header} />
-      <Work />
+      <Sample />
     </div>
   );
 };
