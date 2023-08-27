@@ -1,4 +1,5 @@
 import React from "react";
+import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const Nav = (props) => {
   return (
@@ -11,9 +12,9 @@ const Nav = (props) => {
             alt="rayyan"
           />
           <div className="navbar-brand">
-            <a class="navbar-name" href="#">
+            <Link to={"/"} class="navbar-name">
               Mohd Rayyan
-            </a>
+            </Link>
             <p className="navbar-dsgn">creative copywriter</p>
           </div>
         </div>
@@ -29,9 +30,9 @@ const Nav = (props) => {
         <div class="collapse navbar-collapse" id="navbar1">
           <ul class="navbar-nav">
             <li class="nav-item active">
-              <a class="nav-link" href="#">
+              <Link to={"/Work"} class="nav-link">
                 Work
-              </a>
+              </Link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">
