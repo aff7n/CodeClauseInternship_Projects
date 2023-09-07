@@ -1,33 +1,31 @@
 import React, { useState, useEffect } from "react";
-// import Sample from "../components/Sample";
-// import Nav from "../components/Nav";
-import { ReactComponent as YourSvg } from "../img/hot-coffee.svg";
+import { useRef } from "react";
+import emailjs from "@emailjs/browser";
 import NavStatic from "../components/Nav-static";
 import Footer from "../components/Footer";
+import { event } from "jquery";
 
 const About = (props) => {
-  const [formState, setFormState] = useState({});
+  const form = useRef();
 
-  const changeHandler = (event) => {
-    setFormState({ ...formState, [event.target.name]: event.target.value });
-  };
+  const sendEmail = (e) => {
+    e.preventDefault();
 
-  const submitHandler = (event) => {
-    event.preventDefault();
-    const config = {
-      Username: "rayyan1412rmp@gmail.com",
-      Password: "6FD5433F320D03CA2F415207C9DCEBA2C9F1",
-      Host: "smtp.elasticemail.com",
-      Port: 2525,
-      To: "rayyan1412rmp@gmail.com",
-      From: formState.email,
-      Subject: formState.subject,
-      Body: formState.message,
-    };
-
-    if (window.Email) {
-      window.Email.send(config).then(() => alert("Email sent succesfully"));
-    }
+    emailjs
+      .sendForm(
+        "rayyan1412rmp@gmail.com",
+        "template_o8wu4vj",
+        form.current,
+        "g8z2cnHnBeSXzlThe"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
 
   return (
@@ -46,6 +44,43 @@ const About = (props) => {
                     {props.data ? props.data.paragraph : "Loading"}
                   </p>
                 </div>
+              </div>
+              <div className="contact-form">
+                <h1 className="about-greeting">Contact me</h1>
+                <form ref={form} onSubmit={sendEmail} className="form">
+                  <div className="left">
+                    <input
+                      type="text"
+                      placeholder="Full Name"
+                      name="user_name"
+                      required
+                    />
+                    <input
+                      type="email"
+                      placeholder="Email"
+                      name="user_email"
+                      required
+                    />
+                    <input
+                      type="text"
+                      placeholder="Subject"
+                      name="subject"
+                      required
+                    />
+                    <button className="send-btn btn" type="submit">
+                      Send Message
+                    </button>
+                  </div>
+                  <div className="right">
+                    <textarea
+                      name="message"
+                      cols="30"
+                      rows="10"
+                      placeholder="Type your message"
+                      required
+                    ></textarea>
+                  </div>
+                </form>
               </div>
               {/* <div className="contact-form">
                 <h1 className="about-greeting">Contact me</h1>

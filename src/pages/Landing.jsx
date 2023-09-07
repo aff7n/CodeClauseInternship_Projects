@@ -3,6 +3,7 @@ import Sample from "../components/Sample";
 import Nav from "../components/Nav";
 import { ReactComponent as YourSvg } from "../img/hot-coffee.svg";
 import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 const Landing = (props) => {
   return (
@@ -39,12 +40,9 @@ const Landing = (props) => {
                 </div>
               </div>
               <div className="hero-btns">
-                <a
-                  href="https://www.linkedin.com/in/mohd-rayyan-93728318a/"
-                  style={{ textDecoration: "none" }}
-                >
+                <Link to="/About" style={{ textDecoration: "none" }}>
                   <div class="button btn">Hire Me</div>
-                </a>
+                </Link>
 
                 <div class="button btn">Download CV</div>
                 <div class="button btn">explore My work </div>
