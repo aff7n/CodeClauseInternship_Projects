@@ -9,7 +9,7 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 #menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 24px;
   font-weight: 700;
   color: #333;
@@ -41,7 +41,7 @@
 .nav-link {
   color: #000000;
   text-shadow: none;
-  font-family: "Noto sans", sans-serif;
+  font-family: "League Spartan", sans-serif;
 }
 
 .navbar-brand {
@@ -49,7 +49,7 @@
   text-transform: uppercase;
   /* font-weight: 600; */
   letter-spacing: 3px;
-  /* font-family: "Raleway", sans-serif; */
+  /* font-family: "Poppins", sans-serif; */
   margin: 0;
 }
 
@@ -104,7 +104,7 @@
 } */
 
 .hero h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 70px;
   font-weight: 700;
   color: #000;
@@ -129,7 +129,7 @@
 }
 
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background: rgb(253, 98, 15);

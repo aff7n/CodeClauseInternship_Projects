@@ -1,16 +1,37 @@
 import React from "react";
+import { useState, useEffect } from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
-const Nav = (props) => {
+const Nav = () => {
+  const [prevScrollPos, setPrevScrollPos] = useState(0);
+  const [visible, setVisible] = useState(false);
+
+  const handleScroll = () => {
+    const currentScrollPos = window.pageYOffset;
+
+    setVisible(prevScrollPos < currentScrollPos || currentScrollPos > 10);
+
+    setPrevScrollPos(currentScrollPos);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [prevScrollPos, visible, handleScroll]);
+
   return (
-    <nav class="navbar navbar-expand-sm fixed-top bg-light shadow p-3 mb-5">
+    <nav
+      style={{ top: visible ? "0" : "-100px", transition: "top 0.6s" }}
+      class="navbar bg navbar-expand-sm fixed-top shadow p-3 mb-5 rounded-bottom-5"
+    >
       <div class="container">
         <div className="nav-cont">
-          <img
+          {/* <img
             src={require("../img/rayyan.jpg")}
             class="logo rounded-circle shadow-4-strong"
             alt="rayyan"
-          />
+          /> */}
           <div className="navbar-brand">
             <Link to={"/"} class="navbar-name">
               Mohd Rayyan
@@ -29,21 +50,26 @@ const Nav = (props) => {
         </button>
         <div class="collapse navbar-collapse" id="navbar1">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <Link to={"/Work"} class="nav-link">
+            <li class="nav-item ">
+              <Link to={"/"} class="nav-link">
+                Resume
+              </Link>
+            </li>
+            <li class="nav-item">
+              <Link to={"/"} class="nav-link">
                 Work
               </Link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">
-                About
-              </a>
+              <Link to={"/About"} class="nav-link">
+                About Me
+              </Link>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
+            {/* <li class="nav-item">
+              <Link to={"/Contact"} class="nav-link">
                 Contact
-              </a>
-            </li>
+              </Link>
+            </li> */}
           </ul>
         </div>
       </div>

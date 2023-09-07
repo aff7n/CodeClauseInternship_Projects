@@ -2,6 +2,11 @@ import React from "react";
 import { ReactDOM } from "react-dom";
 import $ from "jquery";
 import Nav from "../components/Nav";
+import Footer from "../components/Footer";
+
+// $(document).ready(function () {
+//   $("nav#remove").removeClass("fixed-top");
+// });
 
 const Work = (props) => {
   return (
@@ -40,7 +45,7 @@ const Work = (props) => {
 
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/allDrycleaners.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/americanTourister.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -53,7 +58,7 @@ const Work = (props) => {
         <div className="gallery__column">
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/allDrycleaners.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/wwf+air.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -64,7 +69,197 @@ const Work = (props) => {
 
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/allDrycleaners.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/wwf+plastic.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+        </div>
+
+        <div className="gallery__column">
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/boostyBells.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Boosty+bells+2.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+        </div>
+
+        <div className="gallery__column">
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/burger2.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/BurgerKingFrench.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/burgerKingWater.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+        </div>
+
+        <div className="gallery__column">
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/fitness+gym-01.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/fitness+gym-02-02.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+        </div>
+
+        <div className="gallery__column">
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/CIty.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/CIty2-02.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+        </div>
+
+        <div className="gallery__column">
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Speedingcomm-01-01.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Speedingcomm-02-02.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+        </div>
+
+        <div className="gallery__column">
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/tide2.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Hit.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Fedex.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+        </div>
+
+        <div className="gallery__column">
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/colgate.jpg"
+              alt=" "
+              className="gallery__image"
+            />
+            {/* <figcaption className="gallery__caption">
+                 
+              </figcaption> */}
+          </figure>
+
+          <figure className="gallery__thumb">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/apollo.jpg"
               alt=" "
               className="gallery__image"
             />

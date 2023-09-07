@@ -1,5 +1,9 @@
 import React from "react";
 import Nav from "./Nav";
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+// import "@splidejs/react-splide/css";
+import "@splidejs/splide/css/sea-green";
+import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import $ from "jquery";
 
 const Sample = (props) => {
@@ -9,98 +13,238 @@ const Sample = (props) => {
   });
 
   return (
-    <>
+    <div id="sample" className="featured">
       <Nav />
-      <div className="carasoul">
-        <div class="options container">
-          <div
-            class="option active"
-            style={{
-              background:
-                "url(https://portfolio-bckt.s3.ap-south-1.amazonaws.com/allDrycleaners.jpg)  0% 5% / cover",
-            }}
-          >
-            <div class="shadow"></div>
-            <div class="label">
-              <div class="icon">
-                <i class="fas fa-walking"></i>
-              </div>
-              <div class="info">
-                <div class="main">Ad title</div>
-                <div class="sub">Ad small description</div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="option"
-            style={{
-              background:
-                "url(https://portfolio-bckt.s3.ap-south-1.amazonaws.com/burgerKingWater.jpg) 0% 45% / cover",
-            }}
-          >
-            <div class="shadow"></div>
-            <div class="label">
-              <div class="icon">{/* <i class="fas fa-snowflake"></i> */}</div>
-              <div class="info">
-                <div class="main">Ad title</div>
-                <div class="sub">Ad small description</div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="option"
-            style={{
-              zoom: "100%",
-              background:
-                "url(https://portfolio-bckt.s3.ap-south-1.amazonaws.com/apollo.jpg) 0% 45% / cover",
-            }}
-          >
-            <div class="shadow"></div>
-            <div class="label">
-              <div class="icon">{/* <i class="fas fa-tree"></i> */}</div>
-              <div class="info">
-                <div class="main">Ad title</div>
-                <div class="sub">Ad small description</div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="option"
-            style={{
-              background:
-                "url(https://portfolio-bckt.s3.ap-south-1.amazonaws.com/CIty.jpg) 0% 45% / cover",
-            }}
-          >
-            <div class="shadow"></div>
-            <div class="label">
-              <div class="icon">{/* <i class="fas fa-tint"></i> */}</div>
-              <div class="info">
-                <div class="main">Ad title</div>
-                <div class="sub">Ad small description</div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="option"
-            style={{
-              background:
-                "url(https://portfolio-bckt.s3.ap-south-1.amazonaws.com/colgate.jpg) 0% 45% / cover",
-            }}
-          >
-            <div class="shadow"></div>
-            <div class="label">
-              <div class="icon">{/* <i class="fas fa-sun"></i> */}</div>
-              <div class="info">
-                <div class="main">Ad title</div>
-                <div class="sub">Ad small description</div>
-              </div>
-            </div>
+      <div className="container">
+        <h2 className="feat-title text-center text-uppercase">Work</h2>
+        <div className="feat-cont">
+          <div className="col-10">
+            <Splide
+              options={{
+                type: "loop",
+                perPage: 3,
+                perMove: 1,
+                gap: "2rem",
+                breakpoints: {
+                  768: {
+                    perPage: 2,
+                    gap: ".7rem",
+                    height: "6rem",
+                  },
+                  480: {
+                    perPage: 1,
+                    gap: ".7rem",
+                    height: "6rem",
+                  },
+                },
+              }}
+              aria-labelledby="My Favorite Images"
+            >
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Fedex.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "top" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/allDrycleaners.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/wwf+plastic.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/wwf+air.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/CIty.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/CIty2-02.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Hit.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/burgerKingWater.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/BurgerKingFrench.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/burger2.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/americanTourister.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Speedingcomm-02-02.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Speedingcomm-01-01.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/apollo.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Boosty+bells+2.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/boostyBells.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/colgate.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/fitness+gym-01.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/fitness+gym-02-02.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+              <SplideSlide>
+                <div class="card feat-card">
+                  <img
+                    class="card-img-top object-fit-cover feat-img"
+                    style={{ objectPosition: "bottom" }}
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/tide2.jpg"
+                    alt="Card image"
+                  />
+                </div>
+              </SplideSlide>
+            </Splide>
           </div>
         </div>
-        <div class="w-button btn button-2">More work</div>
-        {/* <a className="button button-2 more">More</a> */}
       </div>
-    </>
+    </div>
   );
 };
 

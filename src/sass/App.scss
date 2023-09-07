@@ -2,18 +2,19 @@
 @import "./Nav.scss";
 @import "./Sample.scss";
 @import "./Work.scss";
+@import "./Contact.scss";
 
 $black: #000;
 $black_2: #303030;
 $white: #fff;
-$font-family_1: "Noto sans", sans-serif;
-$font-family_2: "Raleway", sans-serif;
+$font-family_1: "League Spartan", sans-serif;
+$font-family_2: "Poppins", sans-serif;
 $background-grey: #eeeeee;
 
-// *,
-// html {
-//   background: $background-grey;
-// }
+body {
+  // background: url(https://portfolio-bckt.s3.ap-south-1.amazonaws.com/interlaced.png);
+  // background: #f7cb15;
+}
 
 /* Hero */
 /* .overlay {

@@ -1,16 +1,15 @@
 {
   "Header": {
-    "title": "Playing with Metaphors is my cup of tea ",
-    "paragraph": "Writer. Creator. Storyteller."
+    "titleOld": "Playing with Metaphors is my cup of tea",
+    "title1": "Hi there",
+    "title2": "I'm Rayyan",
+    "paragraph": "Writer. Creator. Storyteller.",
+    "paragraph1": "a.k.a",
+    "paragraph2": "creative copywriter"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-    "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
-    ],
+    "about": "About Me",
+    "paragraph": "maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin aenean euismod elementum",
     "Why2": [
       "Aliquip ex ea commodo",
       "Lorem ipsum dolor",
