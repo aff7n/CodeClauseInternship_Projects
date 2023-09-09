@@ -1,8 +1,9 @@
-import React from "react";
+import { useRef } from "react";
 import { useState, useEffect } from "react";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 const Nav = () => {
+  // on scroll visibility
   const [prevScrollPos, setPrevScrollPos] = useState(0);
   const [visible, setVisible] = useState(false);
 
@@ -19,6 +20,8 @@ const Nav = () => {
 
     return () => window.removeEventListener("scroll", handleScroll);
   }, [prevScrollPos, visible, handleScroll]);
+
+  // Hamburger
 
   return (
     <nav
@@ -43,12 +46,12 @@ const Nav = () => {
         <button
           class="navbar-toggler"
           type="button"
-          data-toggle="collapse"
-          data-target="#navbar1"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbar1">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item ">
               <Link to={"/"} class="nav-link">
