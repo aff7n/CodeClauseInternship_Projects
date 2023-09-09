@@ -31,12 +31,12 @@ const NavStatic = () => {
         <div class="collapse navbar-collapse" id="navbar1">
           <ul class="navbar-nav">
             <li class="nav-item ">
-              <Link to={"/Work"} class="nav-link">
+              <Link to={"/"} class="nav-link">
                 Resume
               </Link>
             </li>
             <li class="nav-item">
-              <Link to={"/"} class="nav-link">
+              <Link to={"/Work"} class="nav-link">
                 Work
               </Link>
             </li>

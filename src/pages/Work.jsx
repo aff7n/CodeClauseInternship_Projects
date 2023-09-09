@@ -2,6 +2,7 @@ import React from "react";
 import { ReactDOM } from "react-dom";
 import $ from "jquery";
 import Nav from "../components/Nav";
+import NavStatic from "../components/Nav-static";
 import Footer from "../components/Footer";
 
 // $(document).ready(function () {
@@ -12,7 +13,7 @@ const Work = (props) => {
   return (
     <div className="collection">
       {/* <img className="bg-img" src={require("../img/bumbly.jpeg")} alt="" /> */}
-      <Nav />
+      <NavStatic />
       {/* <div
         class="jumbotron jumbotron-fluid bg-image"
         style={{ background: "none", height: "0" }}
@@ -269,6 +270,7 @@ const Work = (props) => {
           </figure>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

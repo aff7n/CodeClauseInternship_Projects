@@ -56,7 +56,7 @@ const Nav = () => {
               </Link>
             </li>
             <li class="nav-item">
-              <Link to={"/"} class="nav-link">
+              <Link to={"/Work"} class="nav-link">
                 Work
               </Link>
             </li>

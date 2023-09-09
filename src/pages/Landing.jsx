@@ -44,8 +44,12 @@ const Landing = (props) => {
                   <div class="button btn">Hire Me</div>
                 </Link>
 
-                <div class="button btn">Download CV</div>
-                <div class="button btn">explore My work </div>
+                <Link to="#">
+                  <div class="button btn">Download CV</div>
+                </Link>
+                <Link to="/Work">
+                  <div class="button btn">explore My work </div>
+                </Link>
               </div>
             </div>
           </div>
