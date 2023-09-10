@@ -29,12 +29,12 @@ const Sample = (props) => {
                   768: {
                     perPage: 2,
                     gap: ".7rem",
-                    height: "6rem",
+                    height: "22rem",
                   },
                   480: {
                     perPage: 1,
                     gap: ".7rem",
-                    height: "6rem",
+                    height: "28rem",
                   },
                 },
               }}

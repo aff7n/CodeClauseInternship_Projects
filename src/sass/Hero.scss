@@ -7,10 +7,11 @@ $font-family_2: "Poppins", sans-serif;
 $background-grey: #eeeeee;
 $pattern: "https://portfolio-bckt.s3.ap-south-1.amazonaws.com/interlaced.png";
 
-$defaultDuration: 0.3s;
-$primaryColour: #ececec;
-$secondaryColour: #666;
-$shadowColour: rgba(0, 0, 0, 0.6);
+$xs: 320px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 .hero {
   width: 100%;
@@ -24,6 +25,11 @@ $shadowColour: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 102px;
     left: 85px;
+
+    @media screen and (max-width: $sm) {
+      left: 50px;
+      top: 120px;
+    }
   }
 
   .hero-content {
@@ -39,6 +45,12 @@ $shadowColour: rgba(0, 0, 0, 0.6);
     row-gap: 18px;
     // column-gap: 18px;
     margin-top: 30px;
+
+    @media screen and (max-width: $sm) {
+      flex-direction: row;
+      margin-top: 50px;
+      justify-content: space-evenly;
+    }
   }
 
   .pfp {
@@ -47,6 +59,11 @@ $shadowColour: rgba(0, 0, 0, 0.6);
     width: 200px;
     object-fit: cover;
     box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.25);
+
+    @media screen and (max-width: $sm) {
+      height: 150px;
+      width: 150px;
+    }
   }
 
   .greeting {
@@ -57,10 +74,10 @@ $shadowColour: rgba(0, 0, 0, 0.6);
     color: #fff;
     font-weight: 600;
     line-height: normal;
-    // position: absolute;
-    // top: 116px;
-    // left: 353px;
-    // margin-bottom: 10px;
+
+    @media screen and (max-width: $sm) {
+      font-size: 40px;
+    }
   }
 
   .greeting1 {
@@ -74,14 +91,10 @@ $shadowColour: rgba(0, 0, 0, 0.6);
     line-height: 115%; /* 34.5px */
     letter-spacing: 3.15px;
     text-transform: uppercase;
-    // position: absolute;
-    // top: 278px;
-    // font-size: 22px;
-    // font-weight: 400;
-    // color: $black_2;
-    // line-height: 30px;
-    // margin: 0 auto;
-    // margin-bottom: 50px;
+
+    @media screen and (max-width: $sm) {
+      font-size: 17px;
+    }
   }
 
   .prof1 {
@@ -92,6 +105,10 @@ $shadowColour: rgba(0, 0, 0, 0.6);
     font-weight: 400;
     line-height: normal;
     text-transform: lowercase;
+
+    @media screen and (max-width: $sm) {
+      font-size: 20px;
+    }
   }
 
   .prof2 {
@@ -102,11 +119,19 @@ $shadowColour: rgba(0, 0, 0, 0.6);
     font-weight: 600;
     line-height: normal;
     text-transform: uppercase;
+
+    @media screen and (max-width: $sm) {
+      font-size: 24px;
+    }
   }
 }
 
 .intro-img {
   margin-right: 68px;
+
+  @media screen and (max-width: $sm) {
+    margin-right: 40px;
+  }
 }
 
 .intro-text {
@@ -148,6 +173,11 @@ $shadowColour: rgba(0, 0, 0, 0.6);
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+  @media screen and (max-width: $sm) {
+    padding: 10px 15px;
+    font-size: 12px;
   }
 }
 

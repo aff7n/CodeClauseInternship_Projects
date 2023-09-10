@@ -12,6 +12,10 @@
     position: absolute;
     top: 140px;
     left: 85px;
+
+    @media screen and (max-width: $sm) {
+      left: 50px;
+    }
   }
 
   .about-content {
@@ -35,10 +39,10 @@
     color: #fff;
     font-weight: 600;
     line-height: normal;
-    // position: absolute;
-    // top: 116px;
-    // left: 353px;
-    // margin-bottom: 10px;
+
+    @media screen and (max-width: $sm) {
+      font-size: 24px;
+    }
   }
 
   .prof {
@@ -49,14 +53,10 @@
     line-height: 115%; /* 34.5px */
     letter-spacing: 3.15px;
     text-transform: uppercase;
-    // position: absolute;
-    // top: 278px;
-    // font-size: 22px;
-    // font-weight: 400;
-    // color: $black_2;
-    // line-height: 30px;
-    // margin: 0 auto;
-    // margin-bottom: 50px;
+
+    @media screen and (max-width: $sm) {
+      font-size: 15px;
+    }
   }
 }
 
@@ -79,15 +79,28 @@
     &::placeholder {
       color: #fff;
     }
+
+    @media screen and (max-width: $sm) {
+      padding: 5px 10px;
+    }
   }
 
   input {
     min-width: 250px;
+
+    @media screen and (max-width: $sm) {
+      min-width: 200px;
+    }
   }
 
   textarea {
     max-height: 160px;
     min-width: 250px;
+
+    @media screen and (max-width: $sm) {
+      min-width: 200px;
+      max-height: 110px;
+    }
   }
 
   .send-btn {
@@ -117,6 +130,11 @@
       -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     }
+
+    @media screen and (max-width: $sm) {
+      padding: 5px 10px;
+      font-weight: 500;
+    }
   }
 }
 
@@ -126,4 +144,8 @@
   align-items: flex-start;
   flex-direction: column;
   row-gap: 20px;
+
+  @media screen and (max-width: $sm) {
+    row-gap: 12px;
+  }
 }

@@ -21,8 +21,6 @@ const Nav = () => {
     return () => window.removeEventListener("scroll", handleScroll);
   }, [prevScrollPos, visible, handleScroll]);
 
-  // Hamburger
-
   return (
     <nav
       style={{ top: visible ? "0" : "-100px", transition: "top 0.6s" }}
