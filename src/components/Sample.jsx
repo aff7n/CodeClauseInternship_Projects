@@ -28,12 +28,12 @@ const Sample = (props) => {
                 perMove: 1,
                 gap: "2rem",
                 breakpoints: {
-                  768: {
-                    perPage: 2,
+                  480: {
+                    perPage: 1,
                     gap: ".7rem",
                     height: "22rem",
                   },
-                  480: {
+                  360: {
                     perPage: 1,
                     gap: ".7rem",
                     height: "20rem",
