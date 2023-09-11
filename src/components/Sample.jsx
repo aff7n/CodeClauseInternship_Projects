@@ -15,7 +15,7 @@ const Sample = (props) => {
   return (
     <div id="sample" className="featured">
       <Nav />
-      <div className="container">
+      <div className="container slide-cont">
         <h2 className="feat-title text-center text-uppercase">
           Work & Projects
         </h2>
@@ -36,7 +36,7 @@ const Sample = (props) => {
                   480: {
                     perPage: 1,
                     gap: ".7rem",
-                    height: "28rem",
+                    height: "20rem",
                   },
                 },
               }}
@@ -88,26 +88,6 @@ const Sample = (props) => {
                     class="card-img-top object-fit-cover feat-img"
                     style={{ objectPosition: "bottom" }}
                     src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/CIty2-02.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Hit.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Fedex.jpg"
                     alt="Card image"
                   />
                 </div>
@@ -207,16 +187,6 @@ const Sample = (props) => {
                   <img
                     class="card-img-top object-fit-cover feat-img"
                     style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/colgate.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
                     src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/fitness+gym-01.jpg"
                     alt="Card image"
                   />
@@ -228,16 +198,6 @@ const Sample = (props) => {
                     class="card-img-top object-fit-cover feat-img"
                     style={{ objectPosition: "bottom" }}
                     src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/fitness+gym-02-02.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/tide2.jpg"
                     alt="Card image"
                   />
                 </div>
