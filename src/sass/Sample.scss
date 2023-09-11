@@ -7,7 +7,7 @@ $font-family_2: "Poppins", sans-serif;
   // width: calc(100% - 100px);
   background-color: #f5f5f5;
   box-shadow: 0px 20px 20px -20px rgba(0, 0, 0, 0.45) inset;
-  height: 90vh;
+  height: 80vh;
   position: relative;
   // padding-top: 120px;
   // padding-bottom: 80px;
@@ -18,8 +18,15 @@ $font-family_2: "Poppins", sans-serif;
 }
 
 .slide-cont {
-  position: absolute;
-  top: 150px;
+  @media screen and (min-width: $sm) {
+    position: absolute;
+    top: 150px;
+  }
+
+  @media screen and (min-width: $xs) {
+    position: absolute;
+    top: 150px;
+  }
 }
 
 .feat-title {
