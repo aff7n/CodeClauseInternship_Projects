@@ -36,7 +36,7 @@ const Sample = (props) => {
                   480: {
                     perPage: 1,
                     gap: ".7rem",
-                    height: "2rem",
+                    height: "28rem",
                   },
                 },
               }}
