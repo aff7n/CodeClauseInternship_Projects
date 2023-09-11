@@ -56,6 +56,10 @@ $background-grey: #eeeeee;
   margin: 0;
   text-decoration: none;
 
+  @media screen and (max-width: $sm) {
+    font-size: 22px;
+  }
+
   @media screen and (max-width: $xs) {
     font-size: 15px;
   }
@@ -69,6 +73,11 @@ $background-grey: #eeeeee;
   margin: 0;
   text-align: center;
 
+  @media screen and (max-width: $sm) {
+    font-size: 10px;
+    letter-spacing: 4.1px;
+  }
+
   @media screen and (max-width: $xs) {
     font-size: 6px;
     letter-spacing: 3.8px;
@@ -81,6 +90,11 @@ $background-grey: #eeeeee;
   font-weight: 600;
   font-size: 17px;
   text-transform: uppercase;
+
+  @media screen and (max-width: $sm) {
+    font-size: 15px;
+    font-weight: 500;
+  }
 
   @media screen and (max-width: $xs) {
     font-size: 15px;

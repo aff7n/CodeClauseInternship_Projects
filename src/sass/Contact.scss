@@ -88,6 +88,12 @@
   display: flex;
   gap: 20px;
 
+  @media screen and (max-width: $sm) {
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 15px;
+  }
+
   @media screen and (max-width: $xs) {
     flex-direction: column;
     margin-top: 15px;
@@ -111,7 +117,7 @@
     }
 
     @media screen and (max-width: $sm) {
-      padding: 5px 10px;
+      padding: 10px 15px;
     }
   }
 
@@ -119,7 +125,7 @@
     min-width: 250px;
 
     @media screen and (max-width: $sm) {
-      min-width: 200px;
+      min-width: 250px;
     }
   }
 
@@ -128,8 +134,8 @@
     min-width: 250px;
 
     @media screen and (max-width: $sm) {
-      min-width: 200px;
-      max-height: 110px;
+      min-width: 300px;
+      max-height: 140px;
     }
   }
 }
@@ -177,6 +183,6 @@
   row-gap: 20px;
 
   @media screen and (max-width: $sm) {
-    row-gap: 12px;
+    row-gap: 15px;
   }
 }
