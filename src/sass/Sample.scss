@@ -3,7 +3,7 @@ $font-family_2: "Poppins", sans-serif;
 
 .featured {
   // min-width: 600px;
-  // max-width: 1000px;
+  //  min-width: 1000px;
   // width: calc(100% - 100px);
   background-color: #f5f5f5;
   box-shadow: 0px 20px 20px -20px rgba(0, 0, 0, 0.45) inset;
@@ -12,7 +12,7 @@ $font-family_2: "Poppins", sans-serif;
   // padding-top: 120px;
   // padding-bottom: 80px;
 
-  @media screen and (max-width: $sm) {
+  @media screen and (min-width: $sm) {
     // height: 85vh;
   }
 }
@@ -37,7 +37,7 @@ $font-family_2: "Poppins", sans-serif;
   letter-spacing: 8px;
   margin-bottom: 35px;
 
-  @media screen and (max-width: $sm) {
+  @media screen and (min-width: $xs) {
     font-size: 25px;
     font-weight: 500;
   }

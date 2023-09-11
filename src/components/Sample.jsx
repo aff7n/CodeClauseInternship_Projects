@@ -82,16 +82,7 @@ const Sample = (props) => {
                   />
                 </div>
               </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/CIty2-02.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
+
               <SplideSlide>
                 <div class="card feat-card">
                   <img
@@ -102,16 +93,7 @@ const Sample = (props) => {
                   />
                 </div>
               </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/BurgerKingFrench.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
+
               <SplideSlide>
                 <div class="card feat-card">
                   <img
@@ -132,16 +114,7 @@ const Sample = (props) => {
                   />
                 </div>
               </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Speedingcomm-02-02.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
+
               <SplideSlide>
                 <div class="card feat-card">
                   <img
@@ -162,26 +135,7 @@ const Sample = (props) => {
                   />
                 </div>
               </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Boosty+bells+2.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/boostyBells.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
+
               <SplideSlide>
                 <div class="card feat-card">
                   <img
