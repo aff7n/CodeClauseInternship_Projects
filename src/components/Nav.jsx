@@ -33,12 +33,17 @@ const Nav = () => {
             class="logo rounded-circle shadow-4-strong"
             alt="rayyan"
           /> */}
-          <div className="navbar-brand">
-            <Link to={"/"} class="navbar-name">
-              Mohd Rayyan
-            </Link>
+
+          <Link to={"/"} className="navbar-brand">
+            <img
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/rayyan-pfp.jpg"
+              class="nav-pfp rounded-circle shadow-4-strong"
+              alt="rayyan"
+              style={{ display: "none" }}
+            />
+            <h2 class="navbar-name">Mohd Rayyan</h2>
             <p className="navbar-dsgn">creative copywriter</p>
-          </div>
+          </Link>
         </div>
 
         <button

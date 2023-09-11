@@ -47,7 +47,12 @@ const About = (props) => {
               </div>
               <div className="contact-form">
                 <h1 className="about-greeting">Contact me</h1>
-                <form ref={form} onSubmit={sendEmail} className="form">
+                <form
+                  ref={form}
+                  onSubmit={sendEmail}
+                  className="form"
+                  id="enquire"
+                >
                   <div className="left">
                     <input
                       type="text"
@@ -67,9 +72,6 @@ const About = (props) => {
                       name="subject"
                       required
                     />
-                    <button className="send-btn btn" type="submit">
-                      Send Message
-                    </button>
                   </div>
                   <div className="right">
                     <textarea
@@ -81,6 +83,9 @@ const About = (props) => {
                     ></textarea>
                   </div>
                 </form>
+                <button className="send-btn btn" form="enquire" type="submit">
+                  Send Message
+                </button>
               </div>
               {/* <div className="contact-form">
                 <h1 className="about-greeting">Contact me</h1>

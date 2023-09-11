@@ -30,11 +30,22 @@ $xl: 1200px;
       left: 50px;
       top: 120px;
     }
+
+    @media screen and (max-width: $xs) {
+      left: 35px;
+      top: 60px;
+    }
   }
 
   .hero-content {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: $xs) {
+      flex-direction: column;
+      align-items: flex-start;
+      row-gap: 30px;
+    }
   }
 
   .hero-btns {
@@ -49,7 +60,15 @@ $xl: 1200px;
     @media screen and (max-width: $sm) {
       flex-direction: row;
       margin-top: 50px;
-      justify-content: space-evenly;
+      column-gap: 20px;
+      justify-content: flex-start;
+    }
+
+    @media screen and (max-width: $xs) {
+      flex-direction: column;
+      margin-top: 15px;
+      row-gap: 20px;
+      justify-content: flex-start;
     }
   }
 
@@ -64,6 +83,11 @@ $xl: 1200px;
       height: 150px;
       width: 150px;
     }
+
+    @media screen and (max-width: $xs) {
+      height: 100px;
+      width: 100px;
+    }
   }
 
   .greeting {
@@ -77,6 +101,10 @@ $xl: 1200px;
 
     @media screen and (max-width: $sm) {
       font-size: 40px;
+    }
+
+    @media screen and (max-width: $xs) {
+      font-size: 28px;
     }
   }
 
@@ -95,6 +123,10 @@ $xl: 1200px;
     @media screen and (max-width: $sm) {
       font-size: 17px;
     }
+
+    @media screen and (max-width: $xs) {
+      font-size: 12px;
+    }
   }
 
   .prof1 {
@@ -109,6 +141,10 @@ $xl: 1200px;
     @media screen and (max-width: $sm) {
       font-size: 20px;
     }
+
+    @media screen and (max-width: $xs) {
+      font-size: 15px;
+    }
   }
 
   .prof2 {
@@ -122,6 +158,10 @@ $xl: 1200px;
 
     @media screen and (max-width: $sm) {
       font-size: 24px;
+    }
+
+    @media screen and (max-width: $xs) {
+      font-size: 20px;
     }
   }
 }
@@ -178,6 +218,13 @@ $xl: 1200px;
   @media screen and (max-width: $sm) {
     padding: 10px 15px;
     font-size: 12px;
+  }
+
+  @media screen and (max-width: $xs) {
+    padding: 7px 12px;
+    font-size: 10px;
+    font-weight: 500;
+    border: 2px solid $white;
   }
 }
 

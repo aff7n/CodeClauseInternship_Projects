@@ -44,6 +44,7 @@ $background-grey: #eeeeee;
   display: flex;
   flex-direction: column;
 }
+
 .navbar-name {
   color: $white;
   text-shadow: none;
@@ -54,6 +55,10 @@ $background-grey: #eeeeee;
   letter-spacing: 3px;
   margin: 0;
   text-decoration: none;
+
+  @media screen and (max-width: $xs) {
+    font-size: 15px;
+  }
 }
 .navbar-dsgn {
   letter-spacing: 5.7px;
@@ -63,6 +68,11 @@ $background-grey: #eeeeee;
   color: $white;
   margin: 0;
   text-align: center;
+
+  @media screen and (max-width: $xs) {
+    font-size: 6px;
+    letter-spacing: 3.8px;
+  }
 }
 .nav-link {
   color: $white;
@@ -71,6 +81,11 @@ $background-grey: #eeeeee;
   font-weight: 600;
   font-size: 17px;
   text-transform: uppercase;
+
+  @media screen and (max-width: $xs) {
+    font-size: 15px;
+    font-weight: 500;
+  }
 }
 #navbar1 {
   display: flex;
