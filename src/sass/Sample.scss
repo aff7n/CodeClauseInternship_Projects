@@ -11,8 +11,8 @@ $font-family_2: "Poppins", sans-serif;
   padding-top: 100px;
   // padding-bottom: 80px;
 
-  @media screen and (max-width: $xs) {
-    // height: auto;
+  @media screen and (max-width: $sm) {
+    height: 75vh;
   }
 }
 
