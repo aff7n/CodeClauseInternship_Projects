@@ -2,28 +2,28 @@ $font-family_1: "League Spartan", sans-serif;
 $font-family_2: "Poppins", sans-serif;
 
 .featured {
-  // min-width: 600px;
-  //  min-width: 1000px;
+  //  max-width: 600px;
+  //   max-width: 1000px;
   // width: calc(100% - 100px);
   background-color: #f5f5f5;
   box-shadow: 0px 20px 20px -20px rgba(0, 0, 0, 0.45) inset;
-  height: 80vh;
+  height: 100vh;
   position: relative;
-  // padding-top: 120px;
+  padding-top: 120px;
   // padding-bottom: 80px;
 
-  @media screen and (min-width: $sm) {
+  @media screen and (max-width: $sm) {
     // height: 85vh;
   }
 }
 
 .slide-cont {
-  @media screen and (min-width: $sm) {
+  @media screen and (max-width: $sm) {
     position: absolute;
     top: 150px;
   }
 
-  @media screen and (min-width: $xs) {
+  @media screen and (max-width: $xs) {
     position: absolute;
     top: 150px;
   }
@@ -32,12 +32,12 @@ $font-family_2: "Poppins", sans-serif;
 .feat-title {
   color: #ff5157;
   font-family: $font-family_2;
-  font-size: 50px;
+  font-size: 40px;
   font-weight: 600;
   letter-spacing: 8px;
   margin-bottom: 35px;
 
-  @media screen and (min-width: $xs) {
+  @media screen and (max-width: $xs) {
     font-size: 25px;
     font-weight: 500;
   }
