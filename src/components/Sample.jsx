@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 // import "@splidejs/react-splide/css";
-import "@splidejs/splide/css/sea-green";
+import "@splidejs/splide/css/skyblue";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import $ from "jquery";
 
@@ -36,7 +36,7 @@ const Sample = (props) => {
                   480: {
                     perPage: 1,
                     gap: ".7rem",
-                    height: "20rem",
+                    height: "30rem",
                   },
                 },
               }}
