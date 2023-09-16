@@ -71,11 +71,11 @@ const Nav = () => {
                 About Me
               </Link>
             </li>
-            {/* <li class="nav-item">
+            <li class="nav-item">
               <Link to={"/Contact"} class="nav-link">
                 Contact
               </Link>
-            </li> */}
+            </li>
           </ul>
         </div>
       </div>

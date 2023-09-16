@@ -9,7 +9,13 @@
   },
   "About": {
     "about": "About Me",
-    "paragraph": "maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi quis eleifend quam adipiscing vitae proin aenean euismod elementum",
+    "aboutP": "Hello and greetings, ",
+    "aboutP1": "I've got quite the mustache going on here (bet you pictured that random imaginary man, huh?). I don't usually like to brag about myself, but, got to do a little bragging to get your attention. Otherwise, you might just scroll on by. So, while I won't claim to have conquered the world, I've tried in making boring stuff interesting. Take, for instance, my copywriting for a simple doorbell. Trust me; it's worth a peek.",
+    "aboutP2": "Oh, and you'll get a chuckle from my social media antics. I've cooked up some LOL-worthy awareness campaigns about overspeeding. I figure if it makes you laugh, you're more likely to remember it, right? And then, I gave the old-school Burger King campaign 'FLAME GRILLING SINCE 1954' a fresh twist.",
+    "aboutP3": "Best thing about me : The best thing about me is that I write copy, like I'm writing to my best friend or giving advise to him/her. Because let's be real, the more relatable the copy, the better chance it has to stick in your brain. It's like trying to forget you stupid BFF - impossible.",
+    "aboutP4": "But enough about yours truly; let's chat about what matters - you and me, quality time together. And if you want to see more of my creative exploits, just hit up the porfolio link in my resume.",
+    "aboutP5": "Thank you for your time.",
+    "aboutP6": "Cheers!",
     "Why2": [
       "Aliquip ex ea commodo",
       "Lorem ipsum dolor",
