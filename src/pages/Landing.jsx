@@ -40,7 +40,7 @@ const Landing = (props) => {
                 </div>
               </div>
               <div className="hero-btns">
-                <Link to="/About" style={{ textDecoration: "none" }}>
+                <Link to="/Contact" style={{ textDecoration: "none" }}>
                   <div class="button btn">Hire Me</div>
                 </Link>
 
