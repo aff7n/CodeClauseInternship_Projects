@@ -35,6 +35,11 @@
       flex-direction: column;
       row-gap: 30px;
 
+      @media screen and (max-width: $xs) {
+        flex-direction: row;
+        margin-right: 0px;
+      }
+
       .contact-text {
         text-align: center;
         text-transform: uppercase;
@@ -50,7 +55,7 @@
 
         @media screen and (max-width: $xs) {
           text-align: start;
-          font-size: 20px;
+          font-size: 15px;
         }
       }
     }
@@ -87,6 +92,12 @@
   @media screen and (max-width: $sm) {
     height: 100px;
     width: 100px;
+  }
+
+  @media screen and (max-width: $xs) {
+    height: 80px;
+    width: 80px;
+    margin-right: 20px;
   }
 }
 
