@@ -21,9 +21,9 @@ const About = (props) => {
                   {props.data ? props.data.aboutP : "Loading"} <br /> <br />
                   {props.data ? props.data.aboutP1 : "Loading"} <br /> <br />
                   {props.data ? props.data.aboutP2 : "Loading"} <br /> <br />
-                  {props.data ? props.data.aboutP3 : "Loading"} <br /> <br />
-                  {props.data ? props.data.aboutP4 : "Loading"} <br /> <br />
-                  {props.data ? props.data.aboutP5 : "Loading"} <br /> <br />
+                  {/* {props.data ? props.data.aboutP3 : "Loading"} <br /> <br /> */}
+                  {/* {props.data ? props.data.aboutP4 : "Loading"} <br /> <br />
+                  {props.data ? props.data.aboutP5 : "Loading"} <br /> <br /> */}
                   {props.data ? props.data.aboutP6 : "Loading"} <br /> <br />
                 </p>
               </div>
