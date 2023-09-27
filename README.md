@@ -1,5 +1,5 @@
 # Live URL
-https://mohd-rayyan.netlify.app/
+
 
 # Getting Started with Create React App
 
