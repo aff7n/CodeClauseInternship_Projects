@@ -1,0 +1,17 @@
+{
+  "Header": {
+    "title1": "Hi there,",
+    "title2": "I'm John Doe",
+    "paragraph": "photographer."
+  },
+  "About": {
+    "about": "About Me",
+    "aboutP": "Hello and greetings, ",
+    "Why2": [
+      "Aliquip ex ea commodo",
+      "Lorem ipsum dolor",
+      "Exercitation ullamco",
+      "Lorem ipsum dolor"
+    ]
+  }
+}
