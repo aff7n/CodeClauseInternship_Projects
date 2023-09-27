@@ -11,11 +11,11 @@ const NavStatic = () => {
             <img
               src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/rayyan-pfp.jpg"
               class="nav-pfp rounded-circle shadow-4-strong"
-              alt="rayyan"
+              alt="John Doe"
               style={{ display: "none" }}
             />
-            <h2 class="navbar-name">Mohd Rayyan</h2>
-            <p className="navbar-dsgn">creative copywriter</p>
+            <h2 class="navbar-name">John Doe</h2>
+            <p className="navbar-dsgn">photographer</p>
           </Link>
         </div>
 
@@ -29,11 +29,6 @@ const NavStatic = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item ">
-              <Link to={"/"} class="nav-link">
-                Resume
-              </Link>
-            </li>
             <li class="nav-item">
               <Link to={"/Work"} class="nav-link">
                 Work
@@ -60,7 +55,7 @@ const NavStatic = () => {
       {/* <div className="">
         <div className="navbar-header">
           <a href="#page-top" className="navbar-brand page-scroll">
-            Mohd Rayyan
+            John Doe
           </a>
         </div>
       </div> 

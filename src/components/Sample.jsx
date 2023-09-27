@@ -2,7 +2,7 @@ import React from "react";
 import Nav from "./Nav";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 // import "@splidejs/react-splide/css";
-import "@splidejs/splide/css/skyblue";
+import "@splidejs/splide/css/sea-green";
 import { AutoScroll } from "@splidejs/splide-extension-auto-scroll";
 import $ from "jquery";
 
@@ -47,7 +47,7 @@ const Sample = (props) => {
                   <img
                     class="card-img-top object-fit-cover feat-img"
                     style={{ objectPosition: "top" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/allDrycleaners.jpg"
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-1.jpg"
                     alt="Card image"
                   />
                 </div>
@@ -57,7 +57,7 @@ const Sample = (props) => {
                   <img
                     class="card-img-top object-fit-cover feat-img"
                     style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/wwf+plastic.jpg"
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-2.jpg"
                     alt="Card image"
                   />
                 </div>
@@ -67,7 +67,7 @@ const Sample = (props) => {
                   <img
                     class="card-img-top object-fit-cover feat-img"
                     style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/wwf+air.jpg"
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-3.jpg"
                     alt="Card image"
                   />
                 </div>
@@ -77,18 +77,7 @@ const Sample = (props) => {
                   <img
                     class="card-img-top object-fit-cover feat-img"
                     style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/CIty.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
-
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/burgerKingWater.jpg"
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-4.jpg"
                     alt="Card image"
                   />
                 </div>
@@ -99,17 +88,7 @@ const Sample = (props) => {
                   <img
                     class="card-img-top object-fit-cover feat-img"
                     style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/burger2.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/americanTourister.jpg"
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-5.jpg"
                     alt="Card image"
                   />
                 </div>
@@ -120,7 +99,7 @@ const Sample = (props) => {
                   <img
                     class="card-img-top object-fit-cover feat-img"
                     style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Speedingcomm-01-01.jpg"
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-6.jpg"
                     alt="Card image"
                   />
                 </div>
@@ -130,28 +109,7 @@ const Sample = (props) => {
                   <img
                     class="card-img-top object-fit-cover feat-img"
                     style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/apollo.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
-
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/fitness+gym-01.jpg"
-                    alt="Card image"
-                  />
-                </div>
-              </SplideSlide>
-              <SplideSlide>
-                <div class="card feat-card">
-                  <img
-                    class="card-img-top object-fit-cover feat-img"
-                    style={{ objectPosition: "bottom" }}
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/fitness+gym-02-02.jpg"
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-7.jpg"
                     alt="Card image"
                   />
                 </div>

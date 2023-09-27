@@ -29,20 +29,20 @@ const Nav = () => {
       <div class="container">
         <div className="nav-cont">
           {/* <img
-            src={require("../img/rayyan.jpg")}
+            src={require("../img/John Doe.jpg")}
             class="logo rounded-circle shadow-4-strong"
-            alt="rayyan"
+            alt="John Doe"
           /> */}
 
           <Link to={"/"} className="navbar-brand">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/rayyan-pfp.jpg"
+              src="../img/John-Doe.jpg"
               class="nav-pfp rounded-circle shadow-4-strong"
-              alt="rayyan"
+              alt="John Doe"
               style={{ display: "none" }}
             />
-            <h2 class="navbar-name">Mohd Rayyan</h2>
-            <p className="navbar-dsgn">creative copywriter</p>
+            <h2 class="navbar-name">John Doe</h2>
+            <p className="navbar-dsgn">photographer</p>
           </Link>
         </div>
 
@@ -56,11 +56,6 @@ const Nav = () => {
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item ">
-              <Link to={"/"} class="nav-link">
-                Resume
-              </Link>
-            </li>
             <li class="nav-item">
               <Link to={"/Work"} class="nav-link">
                 Work
@@ -87,7 +82,7 @@ const Nav = () => {
       {/* <div className="">
         <div className="navbar-header">
           <a href="#page-top" className="navbar-brand page-scroll">
-            Mohd Rayyan
+            John Doe
           </a>
         </div>
       </div> 

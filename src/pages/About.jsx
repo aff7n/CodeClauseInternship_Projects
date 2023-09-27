@@ -19,12 +19,19 @@ const About = (props) => {
                 </h1>
                 <p className="prof">
                   {props.data ? props.data.aboutP : "Loading"} <br /> <br />
-                  {props.data ? props.data.aboutP1 : "Loading"} <br /> <br />
-                  {props.data ? props.data.aboutP2 : "Loading"} <br /> <br />
-                  {/* {props.data ? props.data.aboutP3 : "Loading"} <br /> <br /> */}
-                  {/* {props.data ? props.data.aboutP4 : "Loading"} <br /> <br />
-                  {props.data ? props.data.aboutP5 : "Loading"} <br /> <br /> */}
-                  {props.data ? props.data.aboutP6 : "Loading"} <br /> <br />
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab
+                  odio incidunt cupiditate at tenetur, rem, nobis inventore
+                  quasi totam voluptas quisquam quae facilis ipsam quaerat
+                  repudiandae commodi quos officiis dignissimos, aliquid
+                  explicabo blanditiis non asperiores eius. Libero molestias
+                  expedita incidunt tenetur officiis facilis commodi! Magni
+                  ipsam maxime, numquam, neque nemo minus ratione at corrupti
+                  maiores dolor molestiae? Saepe non, iure molestias quo
+                  suscipit sapiente officia! Cum aliquid sapiente iusto
+                  dignissimos, ipsum eveniet nobis porro. Harum dolor omnis ex
+                  in ullam tenetur mollitia, fugit vel architecto non similique
+                  nemo nisi ratione porro quibusdam veniam eveniet, optio,
+                  debitis unde. Ipsa, id soluta.
                 </p>
               </div>
             </div>

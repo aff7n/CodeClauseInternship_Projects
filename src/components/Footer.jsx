@@ -36,7 +36,7 @@ const Footer = () => {
 
           <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="https://www.instagram.com/_the_adguy/"
+            href="#!"
             role="button"
             data-mdb-ripple-color="dark"
           >
@@ -45,7 +45,7 @@ const Footer = () => {
 
           <a
             class="btn btn-link btn-floating btn-lg text-dark m-1"
-            href="https://www.linkedin.com/in/mohd-rayyan-93728318a/"
+            href="#!"
             role="button"
             data-mdb-ripple-color="dark"
           >
@@ -58,7 +58,7 @@ const Footer = () => {
         class="text-center text-dark p-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2);" }}
       >
-        © 2020 Copyright:
+        © 2023 Copyright:
         <a
           class="text-dark"
           href="https://www.linkedin.com/in/mohd-kaab-khan-7683141b5/"

@@ -5,7 +5,6 @@ $orange: #ffb731;
 $font-family_1: "League Spartan", sans-serif;
 $font-family_2: "Poppins", sans-serif;
 $background-grey: #eeeeee;
-$pattern: "https://portfolio-bckt.s3.ap-south-1.amazonaws.com/interlaced.png";
 
 $xs: 360px;
 $sm: 480px;
@@ -16,8 +15,9 @@ $xl: 1200px;
 .hero {
   width: 100%;
   height: 100vh;
-  background-color: #e55458;
-  background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23993638' fill-opacity='0.35'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-size: cover;
+  background-color: #01aad3;
+  background-image: url("https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/Hero.jpg");
 
   .hero-cont {
     display: flex;
@@ -115,7 +115,7 @@ $xl: 1200px;
   }
 
   .greeting1 {
-    color: #fea610;
+    color: #fff;
   }
   .prof {
     color: #fff;
@@ -154,7 +154,7 @@ $xl: 1200px;
   }
 
   .prof2 {
-    color: #fea610;
+    color: #fff;
     font-family: League Spartan;
     font-size: 38px;
     font-style: normal;
@@ -173,7 +173,7 @@ $xl: 1200px;
 }
 
 .intro-img {
-  margin-right: 68px;
+  margin-right: 50px;
 
   @media screen and (max-width: $xs) {
     // margin-right: 40px;
@@ -205,7 +205,8 @@ $xl: 1200px;
   display: inline-block;
   color: $white;
   border: 3px solid $white;
-  // background-color: #fea610;
+  border-radius: 50px;
+  // background-color: #fff;
   background-size: 500px;
   background-repeat: no-repeat;
   background-position: 0%;
@@ -231,23 +232,5 @@ $xl: 1200px;
   @media screen and (max-width: $xs) {
     padding: 10px 15px;
     font-size: 12px;
-  }
-}
-
-.button-2 {
-  color: $orange;
-  border: 3px solid $orange;
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: 0%;
-  -webkit-transition: all 0.3s ease-in;
-  transition: all 0.3s ease-in;
-
-  &:hover {
-    background-position: 100%;
-    color: $orange;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    -moz-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   }
 }

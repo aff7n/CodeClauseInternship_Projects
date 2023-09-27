@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Sample from "../components/Sample";
 import Nav from "../components/Nav";
-import { ReactComponent as YourSvg } from "../img/hot-coffee.svg";
 import Footer from "../components/Footer";
 import { Link } from "react-router-dom";
 
@@ -15,9 +14,9 @@ const Landing = (props) => {
               <div className="hero-content">
                 <div className="intro-img">
                   <img
-                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/rayyan-pfp.jpg"
+                    src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/John-Doe.jpg"
                     class="pfp rounded-circle shadow-4-strong"
-                    alt="rayyan"
+                    alt="John Doe"
                   />
                 </div>
                 <div className="intro-text">
@@ -28,24 +27,14 @@ const Landing = (props) => {
                     </span>
                     <span></span>
                   </h1>
-                  <p className="prof">
+                  <p className="prof2">
                     {props.data ? props.data.paragraph : "Loading"}
-                  </p>
-                  <p className="prof1">
-                    {props.data ? props.data.paragraph1 : "Loading"}{" "}
-                    <span className="prof2">
-                      {props.data ? props.data.paragraph2 : "Loading"}
-                    </span>
                   </p>
                 </div>
               </div>
               <div className="hero-btns">
                 <Link to="/Contact" style={{ textDecoration: "none" }}>
                   <div class="button btn">Hire Me</div>
-                </Link>
-
-                <Link to="#">
-                  <div class="button btn">Download CV</div>
                 </Link>
                 <Link to="/Work">
                   <div class="button btn">explore My work </div>

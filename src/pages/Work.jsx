@@ -35,7 +35,7 @@ const Work = (props) => {
         <div className="gallery__column">
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/allDrycleaners.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-1.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -46,31 +46,7 @@ const Work = (props) => {
 
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/americanTourister.jpg"
-              alt=" "
-              className="gallery__image"
-            />
-            {/* <figcaption className="gallery__caption">
-                 
-              </figcaption> */}
-          </figure>
-        </div>
-
-        <div className="gallery__column">
-          <figure className="gallery__thumb">
-            <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/wwf+air.jpg"
-              alt=" "
-              className="gallery__image"
-            />
-            {/* <figcaption className="gallery__caption">
-                 
-              </figcaption> */}
-          </figure>
-
-          <figure className="gallery__thumb">
-            <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/wwf+plastic.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-2.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -83,7 +59,7 @@ const Work = (props) => {
         <div className="gallery__column">
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/boostyBells.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-3.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -94,42 +70,7 @@ const Work = (props) => {
 
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Boosty+bells+2.jpg"
-              alt=" "
-              className="gallery__image"
-            />
-            {/* <figcaption className="gallery__caption">
-                 
-              </figcaption> */}
-          </figure>
-        </div>
-
-        <div className="gallery__column">
-          <figure className="gallery__thumb">
-            <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/burger2.jpg"
-              alt=" "
-              className="gallery__image"
-            />
-            {/* <figcaption className="gallery__caption">
-                 
-              </figcaption> */}
-          </figure>
-
-          <figure className="gallery__thumb">
-            <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/BurgerKingFrench.jpg"
-              alt=" "
-              className="gallery__image"
-            />
-            {/* <figcaption className="gallery__caption">
-                 
-              </figcaption> */}
-          </figure>
-
-          <figure className="gallery__thumb">
-            <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/burgerKingWater.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-4.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -142,7 +83,7 @@ const Work = (props) => {
         <div className="gallery__column">
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/fitness+gym-01.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-5.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -153,31 +94,7 @@ const Work = (props) => {
 
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/fitness+gym-02-02.jpg"
-              alt=" "
-              className="gallery__image"
-            />
-            {/* <figcaption className="gallery__caption">
-                 
-              </figcaption> */}
-          </figure>
-        </div>
-
-        <div className="gallery__column">
-          <figure className="gallery__thumb">
-            <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/CIty.jpg"
-              alt=" "
-              className="gallery__image"
-            />
-            {/* <figcaption className="gallery__caption">
-                 
-              </figcaption> */}
-          </figure>
-
-          <figure className="gallery__thumb">
-            <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/CIty2-02.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-6.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -190,7 +107,7 @@ const Work = (props) => {
         <div className="gallery__column">
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Speedingcomm-01-01.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-7.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -201,42 +118,7 @@ const Work = (props) => {
 
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Speedingcomm-02-02.jpg"
-              alt=" "
-              className="gallery__image"
-            />
-            {/* <figcaption className="gallery__caption">
-                 
-              </figcaption> */}
-          </figure>
-        </div>
-
-        <div className="gallery__column">
-          <figure className="gallery__thumb">
-            <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/tide2.jpg"
-              alt=" "
-              className="gallery__image"
-            />
-            {/* <figcaption className="gallery__caption">
-                 
-              </figcaption> */}
-          </figure>
-
-          <figure className="gallery__thumb">
-            <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Hit.jpg"
-              alt=" "
-              className="gallery__image"
-            />
-            {/* <figcaption className="gallery__caption">
-                 
-              </figcaption> */}
-          </figure>
-
-          <figure className="gallery__thumb">
-            <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/Fedex.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-8.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -249,7 +131,7 @@ const Work = (props) => {
         <div className="gallery__column">
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/colgate.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-9.jpg"
               alt=" "
               className="gallery__image"
             />
@@ -260,7 +142,7 @@ const Work = (props) => {
 
           <figure className="gallery__thumb">
             <img
-              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/apollo.jpg"
+              src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/img-10.jpg"
               alt=" "
               className="gallery__image"
             />

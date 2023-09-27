@@ -35,9 +35,9 @@ const Contact = () => {
           <div className="contact-container">
             <div className="contact-intro">
               <img
-                src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/rayyan-pfp.jpg"
+                src="https://portfolio-bckt.s3.ap-south-1.amazonaws.com/code-clause/John-Doe.jpg"
                 class="pfp1 rounded-circle shadow-4-strong"
-                alt="rayyan"
+                alt="John Doe"
               />
               <h2 className="contact-text">feel free to contact me</h2>
             </div>
