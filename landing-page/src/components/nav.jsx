@@ -4,8 +4,8 @@ const Nav = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid flex-column">
-        <a class="navbar-brand " href="#">
-          CasaDecor
+        <a className="navbar-brand fs-2" href="#">
+          Casa<span className="fs-1" style={{ color: "#dbb481", textDecoration:"underline"}}>Decor</span>
         </a>
         <button
           class="navbar-toggler"

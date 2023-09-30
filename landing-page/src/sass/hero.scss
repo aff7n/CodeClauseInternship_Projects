@@ -1,12 +1,8 @@
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(
-      to bottom,
-      rgba(92, 77, 66, 0.8) 0%,
-      rgba(92, 77, 66, 0.8) 100%
-    ),
-    url("../imgs/img1.png");
+  background: linear-gradient(to top, rgba(82,82,82,0.7) 0%, rgba(204,181,151,0.7) 100%),
+    url("../imgs/img1.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -24,7 +20,7 @@ header.masthead .h1 {
     padding-bottom: 0;
   }
   header.masthead p {
-    font-size: 1.15rem;
+    font-size: 2rem;
   }
   header.masthead h1,
   header.masthead .h1 {

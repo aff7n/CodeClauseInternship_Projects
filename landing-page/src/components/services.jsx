@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <section class="page-section" id="services">
       <div class="container px-4 px-lg-5">
-        <h2 class="text-center mt-0">At Your Service</h2>
+        <h2 class="text-center mt-0">Why Choose CasaDecor  ?</h2>
         <hr class="divider" />
         <div class="row gx-4 gx-lg-5">
           <div class="col-lg-3 col-md-6 text-center">
@@ -12,9 +12,9 @@ const Services = () => {
               <div class="mb-2">
                 <i class="bi-gem fs-1 text-primary"></i>
               </div>
-              <h3 class="h4 mb-2">Sturdy Themes</h3>
+              <h3 class="h4 mb-2">Quality Craftsmanship</h3>
               <p class="text-muted mb-0">
-                Our themes are updated regularly to keep them bug free!
+              Exquisite details and fine materials ensure long-lasting, beautiful decor pieces that stand the test of time.
               </p>
             </div>
           </div>
@@ -23,9 +23,9 @@ const Services = () => {
               <div class="mb-2">
                 <i class="bi-laptop fs-1 text-primary"></i>
               </div>
-              <h3 class="h4 mb-2">Up to Date</h3>
+              <h3 class="h4 mb-2">Endless Variety</h3>
               <p class="text-muted mb-0">
-                All dependencies are kept current to keep things fresh.
+              Explore a vast selection of decor   to suit every room and style preference.
               </p>
             </div>
           </div>
@@ -34,9 +34,9 @@ const Services = () => {
               <div class="mb-2">
                 <i class="bi-globe fs-1 text-primary"></i>
               </div>
-              <h3 class="h4 mb-2">Ready to Publish</h3>
+              <h3 class="h4 mb-2">Exceptional Customer Service</h3>
               <p class="text-muted mb-0">
-                You can use this design as is, or you can make changes!
+              Indulge in luxurious decor that doesn't break the bank, making elegance accessible to all.
               </p>
             </div>
           </div>
@@ -47,7 +47,7 @@ const Services = () => {
               </div>
               <h3 class="h4 mb-2">Made with Love</h3>
               <p class="text-muted mb-0">
-                Is it really open source if it's not made with love?
+              Our friendly and knowledgeable team is here to assist you at every step, ensuring a seamless and enjoyable shopping experience.
               </p>
             </div>
           </div>
